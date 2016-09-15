@@ -6,7 +6,7 @@
     "test": "mocha test/**/*.spec.js"
   },
   "author": "zzuieliyaoli",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.0.2"
