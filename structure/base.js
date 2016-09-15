@@ -2,8 +2,7 @@ class Base {
   constructor() {
     this.items = []
   }
-  add(item) {
-    this.items.push(item)
+  add() {
   }
   remove() {
   }
