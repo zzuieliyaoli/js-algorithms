@@ -1,7 +1,11 @@
-const structure = require('../../structure')
-const Queue = structure.Queue
+const should = require('mocha').should
+const Queue = require('../../structure').Queue
 
-let q1 = new Queue()
-console.log(q1.isEmpty() === true)
-
-q1.enqueue(1)
+var assert = require('assert');
+describe('Array', function() {
+  describe('#indexOf()', function() {
+    it('should return -1 when the value is not present', function() {
+      assert.equal(-1, [1,2,3].indexOf(4));
+    });
+  });
+});
