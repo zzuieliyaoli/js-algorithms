@@ -12,3 +12,4 @@ com.aptana.editor.php.prefs
 com.eclipsesource.jshint.ui.prefs
 org.eclipse.ltk.core.refactoring.prefs
 *.scssclear
+npm-debug.log
