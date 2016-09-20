@@ -12,6 +12,9 @@ class Base {
   size() {
     return this.items.length
   }
+  interator() {
+    return this.items.entries()
+  }
 }
 
 module.exports = Base

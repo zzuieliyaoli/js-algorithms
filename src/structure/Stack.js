@@ -5,7 +5,7 @@ class Stack extends Base{
     super()
   }
   push(item) {
-    this.add(item)
+    this.items.push(item)
   } 
   pop() {
     this.items.pop()
