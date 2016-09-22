@@ -1,20 +1,26 @@
-class Base {
+class Node {
   constructor() {
-    this.items = []
-  }
-  add() {
-  }
-  remove() {
-  }
-  isEmpty() {
-    return this.items.length === 0
-  }
-  size() {
-    return this.items.length
-  }
-  interator() {
-    return this.items.entries()
+    this.item = null;
+    this.next = null;
   }
 }
 
-module.exports = Base
+class Base {
+  constructor() {
+    this.first = new Node();
+    this.N = 1
+  }
+  isEmpty() {
+    return (this.first.next === null);
+  }
+  interator() {
+  }
+  size() {
+    return this.N
+  }
+}
+
+module.exports = {
+  Node,
+  Base
+}
