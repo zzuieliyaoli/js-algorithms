@@ -1,7 +1,7 @@
-const Base = require('./Base').Base
-const Node = require('./Base').Node
+const Linked = require('./Linked')
+const Node = require('./Node')
 
-class Stack extends Base {
+class Stack extends Linked {
   constructor() {
     super()
   }
@@ -17,6 +17,6 @@ class Stack extends Base {
     const item = this.first.item
     this.first = this.first.next
     this.N = this.N - 1
-    reurn item
+    return item
   }
 }

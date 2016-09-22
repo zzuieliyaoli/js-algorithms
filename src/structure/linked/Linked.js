@@ -1,11 +1,6 @@
-class Node {
-  constructor() {
-    this.item = null;
-    this.next = null;
-  }
-}
+const Node = require('./Node')
 
-class Base {
+class Linked {
   constructor() {
     this.first = new Node();
     this.N = 1
@@ -20,7 +15,4 @@ class Base {
   }
 }
 
-module.exports = {
-  Node,
-  Base
-}
+module.exports = Linked
