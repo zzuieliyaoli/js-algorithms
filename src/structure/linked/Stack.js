@@ -20,3 +20,5 @@ class Stack extends Linked {
     return item
   }
 }
+
+module.exports = Stack
