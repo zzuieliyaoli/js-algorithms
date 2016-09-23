@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "js-algorithms",
   "scripts": {
-    "test": "mocha test/**/*.spec.js"
+    "test": "mocha test/structure/linked/**/*.spec.js"
   },
   "author": "zzuieliyaoli",
   "license": "MIT",
