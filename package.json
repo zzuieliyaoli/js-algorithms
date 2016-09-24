@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "js-algorithms",
   "scripts": {
-    "test": "mocha test/structure/linked/**/*.spec.js"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec test/**/*.spec.js",
+    "unit": "mocha test/**/*.spec.js"
   },
   "author": "zzuieliyaoli",
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
     "mocha": "^3.0.2"
   }
 }
