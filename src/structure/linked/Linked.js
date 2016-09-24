@@ -8,17 +8,16 @@ class Linked {
   isEmpty() {
     return (this.first === null);
   }
-  interator() {
+  iterator() {
     let current = this.first
     return {
-      hasNext: () =>( current.next !== null ),
+      hasNext: () =>( current !== null ),
       next: () => {
         let item = current.item
         current = current.next
         return item
       },
-      remove: () => {
-      }
+      remove: () => {}
     }
   }
   size() {
