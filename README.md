@@ -5,15 +5,15 @@
 ## Technology
 
 - `CommonJS`模块化；
-- `ES2015`描述主要结构；
-- `Mocha`、`Chain`测试。
+- `ES2015`描述`algorithms`；
+- `Mocha`、`Chain`单元测试，`Istanbul`覆盖率。
 
 ### Run Test
 
 ```bash
 $ cd /js-algorithms
 $ npm install
-$ npm install -g mocha
+$ npm install -g mocha istanbul
 $ npm run test
 ```
 
@@ -21,6 +21,7 @@ $ npm run test
 
 ### 基于链表
 
+- Node
 - LinkedList
 - Stack
 - Queue
