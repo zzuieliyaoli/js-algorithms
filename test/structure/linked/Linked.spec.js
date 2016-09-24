@@ -14,15 +14,21 @@ describe('structure: Linked', () => {
       expect(l.first).to.equal(null)
       expect(l.N).to.equal(0)
     })
-    it('interator()', () => {
-      expect(l.interator).to.be.a('function')
-    })
     describe('isEmpty()', () => {
       it('should be function', () => {
         expect(l.isEmpty).to.be.a('function')
       })
       it('should run correctly', () => {
         expect(l.isEmpty()).to.be.equal(true)
+      })
+    })
+
+    // 只在这里验证属性的类型
+    // 行为放在不同的数据结构内
+    // 因为Linked没有添加等方法
+    describe('iterator()', () => {
+      it('should be function', () => {
+        expect(l.iterator).to.be.a('function')
       })
     })
     describe('size()', () => {
