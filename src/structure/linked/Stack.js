@@ -12,6 +12,7 @@ class Stack extends Linked {
     first.next = oldFirst
     this.first = first
     this.N = this.N + 1
+    return this
   }
   pop() {
     const item = this.first.item
