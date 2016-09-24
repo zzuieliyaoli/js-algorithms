@@ -11,7 +11,7 @@ describe('structure: Linked', () => {
   })
   describe('should have correct methods', () => {
     it('constructor()', () => {
-      expect(l.first).to.be.an.instanceOf(Node)
+      expect(l.first).to.equal(null)
       expect(l.N).to.equal(0)
     })
     it('interator()', () => {

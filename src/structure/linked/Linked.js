@@ -2,11 +2,11 @@ const Node = require('./Node')
 
 class Linked {
   constructor() {
-    this.first = new Node();
+    this.first = null
     this.N = 0
   }
   isEmpty() {
-    return (this.first.next === null);
+    return (this.first === null);
   }
   interator() {
     let current = this.first
