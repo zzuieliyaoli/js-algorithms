@@ -1,4 +1,4 @@
-const { src, expect, Node } = require('./utils')
+const { expect, Node } = require('./utils')
 
 let n
 beforeEach(() => {

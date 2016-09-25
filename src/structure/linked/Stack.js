@@ -6,8 +6,8 @@ class Stack extends Linked {
     super()
   }
   push(item) {
-    let oldFirst = this.first
-    let first = new Node()
+    const oldFirst = this.first
+    const first = new Node()
     first.item = item
     first.next = oldFirst
     this.first = first

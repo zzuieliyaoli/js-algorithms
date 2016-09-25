@@ -1,19 +1,17 @@
-const Node = require('./Node')
-
 class Linked {
   constructor() {
     this.first = null
     this.N = 0
   }
   isEmpty() {
-    return (this.first === null);
+    return (this.first === null)
   }
   iterator() {
     let current = this.first
     return {
       hasNext: () =>( current !== null ),
       next: () => {
-        let item = current.item
+        const item = current.item
         current = current.next
         return item
       },

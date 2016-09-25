@@ -1,4 +1,4 @@
-const { expect, Node, Linked } = require('./utils')
+const { expect, Linked } = require('./utils')
 
 let l
 beforeEach(() => {
