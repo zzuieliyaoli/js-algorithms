@@ -6,14 +6,33 @@
 
 - `CommonJS`模块化；
 - `ES2015`描述`algorithms`；
+- `ESLint`校验代码风格；
 - `Mocha`、`Chain`单元测试，`Istanbul`覆盖率。
 
-### Run Test
+## Command
 
+#### install
 ```bash
 $ cd /js-algorithms
 $ npm install
-$ npm install -g mocha istanbul
+$ npm install -g eslint mocha istanbul
+```
+
+#### lint
+
+```bash
+$ npm run lint
+```
+
+#### unit test
+
+```bash
+$ npm run unit
+```
+
+#### coverage
+
+```bash
 $ npm run test
 ```
 
