@@ -7,10 +7,9 @@ class Stack extends Linked {
   }
   push(item) {
     const oldFirst = this.first
-    const first = new Node()
-    first.item = item
-    first.next = oldFirst
-    this.first = first
+    this.first = new Node()
+    this.first.item = item
+    this.first.next = oldFirst
     this.N = this.N + 1
     return this
   }
