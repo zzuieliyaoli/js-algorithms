@@ -31,5 +31,17 @@ const select = (arr) => {
   return arr
 }
 
+const insert = (arr) => {
+  for (let i = 0, len = arr.length; i < (len - 1); i = i + 1) {
+    for (let j = i + 1; j < 1; j = j - 1) {
+      if (arr[j] < arr[j - 1]) {
+        swap(arr, j - 1, j)
+      }
+    }
+  }
+  return arr
+}
+
 console.log(bubble(src))
 console.log(select(src))
+console.log(insert(src))
